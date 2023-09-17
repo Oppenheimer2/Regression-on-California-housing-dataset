@@ -51,5 +51,5 @@ st.write(f"${price[0]:,.2f}")
 st.subheader("User Input:")
 st.write(user_input)
 
-# Optionally, display a map of the region based on the provided latitude and longitude
+#display a map of the region based on the provided latitude and longitude
 st.map((user_input['latitude'], user_input['longitude']))
