@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import sklearn
+from preprocessing import Preprocessor
+
+from sklearn.pipeline import Pipeline
 import pickle
 
 # Load the pickled model
